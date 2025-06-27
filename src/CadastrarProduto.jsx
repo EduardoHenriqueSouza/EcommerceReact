@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ref, push, set } from "firebase/database";
 import { database } from "../firebase";
-import "./CadastrarProduto.css";
 
 function CadastrarProduto() {
   const [nome, setNome] = useState("");
